@@ -44,7 +44,7 @@ F = np.array([[1, 0, dt, 0],
               [0, 0, 1, 0],
               [0, 0, 0, 1]])
 
-# Process noise (same construction as your code)
+# Process noise (same construction as your code)d
 Q = np.array([[((dt**3)/3), 0, ((dt**2)/2), 0],
               [0, ((dt**3)/3), 0, ((dt**2)/2)],
               [((dt**2)/2), 0, dt, 0],
